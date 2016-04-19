@@ -1,23 +1,73 @@
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: IRANsans, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
 * {
-	box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 html {
-	font-size: 15px;
-}
+  font-size: 15px; }
 
 body {
-	font-size: 100%;
-	font-family: sans-serif;
-}
+  font-size: 100%;
+  font-family: IRANSans, sans-serif;
+  direction: rtl; }
 
-.cap {
-	background: url('/images/slide-1.jpg') center;
-	background-size: 1902px 576px;
-	width: 100%;
-	height: 500px;
-}
+header {
+  background: url("/images/slide-1.jpg") center top;
+  background-size: 1902.66px 570px;
+  width: 100%;
+  height: 500px;
+  margin-top: 20px; }
+  header .slide-title {
+    padding: 160px 380px;
+    color: white;
+    text-align: center; }
+    header .slide-title h1 {
+      font-size: 3rem;
+      padding-bottom: 25px;
+      line-height: 1.5em; }
+    header .slide-title .header-btn {
+      border-radius: 100px;
+      padding: 13px 20px 14px;
+      color: white;
+      width: 158px;
+      font-size: 1.2rem; }
+    header .slide-title .btn-type1 {
+      background: #8bc34a; }
+    header .slide-title .btn-type2 {
+      background: transparent; }
 
-.slide-title {
-	margin: 0 auto;
-}
+.row-container {
+  max-width: 1210px;
+  margin-left: 20px;
+  margin-right: 20px; }
+
+#section1 {
+  margin: 40px; }
+  #section1 h2, #section1 p, #section1 h4 {
+    text-align: center;
+    margin: 20px; }
+  #section1 h4 {
+    color: #8bc34a; }
+
+.item-content {
+  padding: 20px; }
+  .item-content p {
+    color: #888888; }
+
+#section2 {
+  background: #f6f8fa;
+  width: 100%;
+  padding: 40px 40px 20px; }
+
+.fa-green {
+  color: #8bc34a;
+  padding: 20px; }
+
+.section-item {
+  padding: 20px; }
+
+#section3 {
+  padding: 40px 0px; }
+
+/*# sourceMappingURL=style.css.map */

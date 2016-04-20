@@ -14,6 +14,13 @@ body {
   margin: 0px;
   padding: 0px; }
 
+.navbar {
+  height: 65px;
+  background: white; }
+
+.navbar-nav {
+  margin: 7px; }
+
 header {
   background: url("/images/slide-1.jpg") center top;
   background-size: 1902.66px 570px;
@@ -33,7 +40,7 @@ header {
       padding: 13px 20px 14px;
       color: white;
       width: 158px;
-      font-size: 1.2r; }
+      font-size: 1.2rem; }
     header .slide-title .btn-type1 {
       background: #8bc34a; }
     header .slide-title .btn-type2 {
@@ -69,6 +76,9 @@ header {
   color: #8bc34a;
   padding: 20px; }
 
+.readmore {
+  color: #8bc34a; }
+
 .section-item {
   padding: 20px; }
 
@@ -94,7 +104,7 @@ header {
     color: white; }
 
 #item-green-2 {
-  background: #1d9d73; }
+  background: #8bc34a; }
 
 #item-green-3 {
   background: #1b936c; }
@@ -110,19 +120,19 @@ header {
     margin-bottom: 35px; }
   #section6 h4 {
     color: white;
-    background: #1d9d73;
+    background: #8bc34a;
     font-size: 1.6rem;
     margin: 0px;
     padding: 32px 20px 27px; }
   #section6 .price {
     background: #f6f8fa;
-    color: #1d9d73;
+    color: #8bc34a;
     margin: 0px;
     padding: 14px 12px 11px; }
     #section6 .price span {
       font-size: 3rem; }
   #section6 ul {
-    background: #1d9d73;
+    background: #8bc34a;
     color: white;
     padding: 25px 0px;
     margin: 0px; }

@@ -16,6 +16,15 @@ body {
 	padding:0px;
 }
 
+.navbar {
+	height: 65px;
+	background:white;
+}
+
+.navbar-nav {
+	margin:7px;
+}
+
 header {
 	background: url('/images/slide-1.jpg') center top;
 	background-size: 1902.66px 570px;
@@ -39,7 +48,7 @@ header {
 			padding:13px 20px 14px;
 	    	color: white;
 	    	width: 158px;
-	    	font-size: 1.2r
+	    	font-size: 1.2rem;
 	    }
 
 	    .btn-type1 {
@@ -92,6 +101,10 @@ header {
 	padding:20px;
 }
 
+.readmore {
+	color:$lightgreen;
+}
+
 .section-item {
 	padding:20px;
 }
@@ -125,7 +138,7 @@ header {
 }
 
 #item-green-2 {
-	background:$darkgreen;
+	background:$lightgreen;
 }
 #item-green-3 {
 	background:#1b936c;
@@ -143,14 +156,14 @@ header {
 	}
 	h4 {
 		color: white;
-		background:$darkgreen;
+		background:$lightgreen;
 		font-size:1.6rem;
 		margin: 0px;
 		padding:32px 20px 27px;
 	}
 	.price {
 		background:$lightgray;
-		color: $darkgreen;
+		color: $lightgreen;
 		margin: 0px;
 		padding:14px 12px 11px;
 		span {
@@ -158,7 +171,7 @@ header {
 		}
 	}
 	ul {
-		background:$darkgreen;
+		background:$lightgreen;
 		color: white;
 		padding:25px 0px;
 		margin: 0px;

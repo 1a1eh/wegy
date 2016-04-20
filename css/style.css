@@ -10,7 +10,9 @@ html {
 body {
   font-size: 100%;
   font-family: IRANSans, sans-serif;
-  direction: rtl; }
+  direction: rtl;
+  margin: 0px;
+  padding: 0px; }
 
 header {
   background: url("/images/slide-1.jpg") center top;
@@ -31,7 +33,7 @@ header {
       padding: 13px 20px 14px;
       color: white;
       width: 158px;
-      font-size: 1.2rem; }
+      font-size: 1.2r; }
     header .slide-title .btn-type1 {
       background: #8bc34a; }
     header .slide-title .btn-type2 {
@@ -50,15 +52,18 @@ header {
   #section1 h4 {
     color: #8bc34a; }
 
-.item-content {
-  padding: 20px; }
-  .item-content p {
-    color: #888888; }
+.item-content p {
+  color: #888888; }
 
 #section2 {
   background: #f6f8fa;
   width: 100%;
   padding: 40px 40px 20px; }
+  #section2 .item-content {
+    width: calc(100% - 105px);
+    float: right; }
+  #section2 .fa {
+    float: right; }
 
 .fa-green {
   color: #8bc34a;
@@ -69,5 +74,91 @@ header {
 
 #section3 {
   padding: 40px 0px; }
+  #section3 .item-content {
+    width: calc(100% - 459px); }
+  #section3 li {
+    padding-right: 10px;
+    line-height: 23px; }
+
+#item-green-1 {
+  background: #1fa87a; }
+
+.fa-white {
+  color: white; }
+
+#section4 .item-content {
+  text-align: center;
+  color: white;
+  padding: 16% 12% 13%; }
+  #section4 .item-content p {
+    color: white; }
+
+#item-green-2 {
+  background: #1d9d73; }
+
+#item-green-3 {
+  background: #1b936c; }
+
+.col-padding {
+  padding: 0px;
+  margin: 0px; }
+
+#section6 {
+  text-align: center;
+  margin: 40px 0px 80px; }
+  #section6 h2 {
+    margin-bottom: 35px; }
+  #section6 h4 {
+    color: white;
+    background: #1d9d73;
+    font-size: 1.6rem;
+    margin: 0px;
+    padding: 32px 20px 27px; }
+  #section6 .price {
+    background: #f6f8fa;
+    color: #1d9d73;
+    margin: 0px;
+    padding: 14px 12px 11px; }
+    #section6 .price span {
+      font-size: 3rem; }
+  #section6 ul {
+    background: #1d9d73;
+    color: white;
+    padding: 25px 0px;
+    margin: 0px; }
+
+#section7 {
+  background: #f6f8fa;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 90px; }
+  #section7 p {
+    color: #888888;
+    padding: 23px; }
+  #section7 small {
+    color: #8bc34a; }
+  #section7 img {
+    border-radius: 100px; }
+
+.swiper-container-rtl .fa-angle-right {
+  right: 165px;
+  color: #8bc34a; }
+
+.swiper-container-rtl .fa-angle-left {
+  left: 165px;
+  color: #8bc34a; }
+
+.fa-angle-right, .fa-angle-left {
+  background-size: 10px 50px;
+  position: absolute;
+  top: 50%;
+  width: 27px;
+  height: 44px;
+  margin-top: -22px;
+  z-index: 10;
+  cursor: pointer;
+  background-size: 27px 44px;
+  background-position: center;
+  background-repeat: no-repeat; }
 
 /*# sourceMappingURL=style.css.map */

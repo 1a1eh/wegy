@@ -12,6 +12,8 @@ body {
 	font-size: 100%;
 	font-family: IRANSans, sans-serif;
 	direction: rtl;
+	margin:0px;
+	padding:0px;
 }
 
 header {
@@ -37,11 +39,11 @@ header {
 			padding:13px 20px 14px;
 	    	color: white;
 	    	width: 158px;
-	    	font-size: 1.2rem;
+	    	font-size: 1.2r
 	    }
 
 	    .btn-type1 {
-			background:#8bc34a;
+			background:$lightgreen;
 	    }
 
 	    .btn-type2 {
@@ -63,24 +65,30 @@ header {
 			margin: 20px;
 		}
 		h4 {
-			color: #8bc34a;
+			color: $lightgreen;
 		}
 }
 .item-content {
-	padding:20px;
 	p {
 		color: #888888;
 	}
 }
 
 #section2 {
-	background:#f6f8fa;
+	background:$lightgray;
 	width:100%;
 	padding:40px 40px 20px;
+	.item-content {
+		width: calc(100% - 105px);
+		float: right;
+	}
+	.fa {
+		float: right;
+	}
 }
 
 .fa-green {
-	color:#8bc34a;
+	color:$lightgreen;
 	padding:20px;
 }
 
@@ -89,4 +97,110 @@ header {
 }
 #section3 {
 	padding:40px 0px;
+	.item-content {
+		width: calc(100% - 459px);
+	}
+	li {
+		padding-right:10px;
+		line-height: 23px;
+	}
+}
+
+#item-green-1 {
+	background:#1fa87a;
+}
+
+.fa-white {
+	color:white;
+}
+#section4 {
+	.item-content {
+		text-align: center;
+		color: white;
+		padding:16% 12% 13%;
+		p {
+			color: white;
+		}
+	}
+}
+
+#item-green-2 {
+	background:$darkgreen;
+}
+#item-green-3 {
+	background:#1b936c;
+}
+
+.col-padding {
+	padding:0px;
+	margin:0px;
+}
+#section6 {
+	text-align:center;
+	margin:40px 0px 80px;
+	h2 {
+		margin-bottom:35px;
+	}
+	h4 {
+		color: white;
+		background:$darkgreen;
+		font-size:1.6rem;
+		margin: 0px;
+		padding:32px 20px 27px;
+	}
+	.price {
+		background:$lightgray;
+		color: $darkgreen;
+		margin: 0px;
+		padding:14px 12px 11px;
+		span {
+			font-size: 3rem;
+		}
+	}
+	ul {
+		background:$darkgreen;
+		color: white;
+		padding:25px 0px;
+		margin: 0px;
+	}
+}
+#section7 {
+	background:$lightgray;
+	text-align:center;
+	padding-bottom:50px;
+	padding-top:90px;
+	p {
+		color: #888888;
+		padding:23px;
+
+	}
+	small {
+		color: $lightgreen;
+	}
+	img {
+		border-radius:100px;
+	}
+}
+
+.swiper-container-rtl .fa-angle-right {
+	right:165px;
+	color:$lightgreen;
+}
+
+.swiper-container-rtl .fa-angle-left {
+	left:165px;
+	color:$lightgreen;
+}
+.fa-angle-right, .fa-angle-left {
+	background-size:10px 50px;
+	position: absolute;
+    top: 50%;
+    width: 27px;
+    height: 44px;
+    margin-top: -22px;
+    z-index: 10;
+    cursor: pointer;
+    background-size: 27px 44px;
+    background-position: center;
+    background-repeat: no-repeat;
 }

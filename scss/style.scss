@@ -52,7 +52,7 @@ header {
 	    }
 
 	    .btn-type1 {
-			background:$lightgreen;
+			background:$blue;
 	    }
 
 	    .btn-type2 {
@@ -69,24 +69,27 @@ header {
 
 #section1 {
     margin: 40px;
-		h2, p, h4 {
+		h2, p, h4, img {
 			text-align:center;
 			margin: 20px;
 		}
 		h4 {
-			color: $lightgreen;
+			color: $blue;
+		}
+		p {
+			color: $lightengray;
 		}
 }
 .item-content {
 	p {
-		color: #888888;
+		color: $lightengray;
 	}
 }
 
 #section2 {
 	background:$lightgray;
 	width:100%;
-	padding:40px 40px 20px;
+	padding:40px 50px;
 	.item-content {
 		width: calc(100% - 105px);
 		float: right;
@@ -96,31 +99,40 @@ header {
 	}
 }
 
-.fa-green {
-	color:$lightgreen;
+.fa-blue {
+	color:$blue;
 	padding:20px;
 }
 
 .readmore {
-	color:$lightgreen;
+	color:$blue;
 }
 
 .section-item {
-	padding:20px;
+	padding:30px;
 }
 #section3 {
 	padding:40px 0px;
 	.item-content {
 		width: calc(100% - 459px);
-	}
-	li {
-		padding-right:10px;
-		line-height: 23px;
+		padding:20px;
+		a {
+			color: $blue;
+		}
 	}
 }
 
-#item-green-1 {
-	background:#1fa87a;
+.icon {
+	width:70px;
+	height:70px;
+	background:$lightgray;
+	border-radius:100px;
+	display:inline-block;
+	margin:12px;
+}
+
+#item-blue-1 {
+	background:#00c9e1;
 }
 
 .fa-white {
@@ -137,16 +149,48 @@ header {
 	}
 }
 
-#item-green-2 {
-	background:$lightgreen;
+#item-blue-2 {
+	background:$blue;
 }
-#item-green-3 {
-	background:#1b936c;
+#item-blue-3 {
+	background:#00b1c8;
 }
 
 .col-padding {
 	padding:0px;
 	margin:0px;
+}
+
+#section5 {
+	padding: 152px 0 134px;
+	background: url('/images/mainbottomBg.jpg') center no-repeat;
+	background-size: cover;
+	height:700px;
+	width:100%;
+	margin:80px 0px 50px;
+	text-align:center;
+	display:inline-block;
+	padding:100px 60px;
+	.item-content {
+		padding:100px;
+		p {
+			color: black;
+		}
+	}
+	h2 {
+		color: $blue;
+		margin:60px 0px;
+	}
+}
+
+.flaticon {
+	height:130px;
+	width:130px;
+	border-radius:100px;
+	background:$blue;
+	padding:30px;
+	text-align:center;
+	margin-bottom:12px;
 }
 #section6 {
 	text-align:center;
@@ -156,14 +200,14 @@ header {
 	}
 	h4 {
 		color: white;
-		background:$lightgreen;
+		background:$blue;
 		font-size:1.6rem;
 		margin: 0px;
 		padding:32px 20px 27px;
 	}
 	.price {
 		background:$lightgray;
-		color: $lightgreen;
+		color: $blue;
 		margin: 0px;
 		padding:14px 12px 11px;
 		span {
@@ -171,7 +215,7 @@ header {
 		}
 	}
 	ul {
-		background:$lightgreen;
+		background:$blue;
 		color: white;
 		padding:25px 0px;
 		margin: 0px;
@@ -188,7 +232,7 @@ header {
 
 	}
 	small {
-		color: $lightgreen;
+		color: $blue;
 	}
 	img {
 		border-radius:100px;
@@ -197,12 +241,12 @@ header {
 
 .swiper-container-rtl .fa-angle-right {
 	right:165px;
-	color:$lightgreen;
+	color:$blue;
 }
 
 .swiper-container-rtl .fa-angle-left {
 	left:165px;
-	color:$lightgreen;
+	color:$blue;
 }
 .fa-angle-right, .fa-angle-left {
 	background-size:10px 50px;
@@ -216,4 +260,23 @@ header {
     background-size: 27px 44px;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+#section8 {
+	margin:40px;
+	text-align:center;
+	line-height:40px;
+	img {
+		padding:10px;
+	}
+	h2 {
+		margin-bottom: 40px;
+	}
+	.telephone {
+		font-weight: 300px;
+		font-size: 1.3rem;
+	}
+	address, small, ul {
+		color: $lightengray;
+	}
 }

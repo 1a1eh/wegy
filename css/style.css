@@ -24,7 +24,6 @@ body {
 header {
   background: url("/images/slide-1.jpg") center top;
   background-size: 1902.66px 570px;
-  width: 100%;
   height: 500px;
   margin-top: 20px; }
   header .slide-title {
@@ -47,12 +46,12 @@ header {
       background: transparent; }
 
 .row-container {
-  max-width: 1210px;
-  margin-left: 20px;
-  margin-right: 20px; }
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1210px; }
 
 #section1 {
-  margin: 40px; }
+  margin: 40px auto; }
   #section1 h2, #section1 p, #section1 h4, #section1 img {
     text-align: center;
     margin: 20px; }
@@ -148,7 +147,7 @@ header {
   background: #00bcd4;
   padding: 30px;
   text-align: center;
-  margin-bottom: 12px; }
+  margin: 0 auto; }
 
 #section6 {
   text-align: center;

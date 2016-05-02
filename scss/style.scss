@@ -172,14 +172,14 @@ header {
 	display:inline-block;
 	padding:100px 60px;
 	.item-content {
-		padding:100px;
+		padding-top:100px;
 		p {
 			color: black;
 		}
 	}
 	h2 {
 		color: $blue;
-		margin:60px 0px;
+		margin:30px 0px;
 	}
 }
 
@@ -265,7 +265,7 @@ header {
 #section8 {
 	margin:40px;
 	text-align:center;
-	line-height:40px;
+	
 	img {
 		padding:10px;
 	}
@@ -278,5 +278,8 @@ header {
 	}
 	address, small, ul {
 		color: $lightengray;
+	}
+	ul {
+		padding:20px 0px;
 	}
 }

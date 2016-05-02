@@ -133,12 +133,12 @@ header {
   display: inline-block;
   padding: 100px 60px; }
   #section5 .item-content {
-    padding: 100px; }
+    padding-top: 100px; }
     #section5 .item-content p {
       color: black; }
   #section5 h2 {
     color: #00bcd4;
-    margin: 60px 0px; }
+    margin: 30px 0px; }
 
 .flaticon {
   height: 130px;
@@ -209,8 +209,7 @@ header {
 
 #section8 {
   margin: 40px;
-  text-align: center;
-  line-height: 40px; }
+  text-align: center; }
   #section8 img {
     padding: 10px; }
   #section8 h2 {
@@ -220,5 +219,7 @@ header {
     font-size: 1.3rem; }
   #section8 address, #section8 small, #section8 ul {
     color: #888888; }
+  #section8 ul {
+    padding: 20px 0px; }
 
 /*# sourceMappingURL=style.css.map */
